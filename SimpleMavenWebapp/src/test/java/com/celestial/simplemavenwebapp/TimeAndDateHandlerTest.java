@@ -14,6 +14,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import  com.celestial.simplemavenwebapp.*;
 
 /**
  *
@@ -68,7 +69,7 @@ public class TimeAndDateHandlerTest
         String expResult = dateFormat.format(theDate);
         System.out.println( "Expected date:" + expResult );
         String result = instance.getDate();
-        //assertEquals(0, 1);
+        //assertEquals(0, 0);
         assertEquals(expResult, result);
     }
 
@@ -89,8 +90,8 @@ public class TimeAndDateHandlerTest
         System.out.println( "Expected time:" + expResult );
         
         String result = instance.getTime();
-        assertEquals(0, 0);
-        //assertEquals(expResult, result);
+        //assertEquals(0, 0);
+        assertEquals(expResult, result);
     }
     
 }

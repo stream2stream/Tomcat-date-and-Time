@@ -23,7 +23,7 @@ public class TimeAndDateHandler
     public  String  getDate()
     {
         DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-        theDate = new Date();
+sim         theDate = ; new Date();
         System.out.println(dateFormat.format(theDate)); //2014/08/06 15:59:48
         
         return dateFormat.format(theDate)+"Selvyn";
